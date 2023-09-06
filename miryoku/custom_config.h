@@ -6,7 +6,7 @@
 U_MT(TAB, C),      &kp N1,            &kp N2,                       U_MT(N4, N3),      U_MT(J,T),             &kp Y,             &u_to_U_BASE,      &kp I,             &kp O,             &kp P,      \
 &kp X,             &kp Q,             &kp W,                        &kp E,             U_MT(H,R),             &kp H,             &kp J,             &kp K,             &kp L,             &kp SQT,           \
 &kp Z,             &kp A,             &kp S,                        &kp D,             U_MT(B,F),             &kp N,             &kp M,             &kp COMMA,         &kp DOT,           &kp SLASH,         \
-U_NP,              U_NP,              &kp LSHFT                     &kp LCTRL,         &kp BSPC,          &kp TAB,           &kp SPACE,         &kp ESC,           U_NP,              U_NP
+U_NP,              U_NP,              &kp LSHFT,                    &kp LCTRL,         &kp BSPC,              &kp TAB,           &kp SPACE,         &kp ESC,           U_NP,              U_NP
 
 
 // [ -> ğ || ] -> ü || ; -> ş || '-> i || , -> ö || . -> ç
@@ -19,7 +19,7 @@ U_NP,              U_NP,              &kp ESC,           &kp SPACE,         &kp 
 #define MIRYOKU_LAYERMAPPING_TR MIRYOKU_MAPPING
 
 // Update base qwerty for accessing TR layer
-#define MIRYOKU_ALTERNATIVES_BASE_QWERTY \
+#define MIRYOKU_LAYER_BASE_QWERTY \
 &kp Q,             &kp W,             &kp E,             &kp R,             &kp T,             &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,             \
 U_MT(LGUI, A),     U_MT(LALT, S),     U_MT(LCTRL, D),    U_MT(LSHFT, F),    &kp G,             &kp H,             U_MT(LSHFT, J),    U_MT(LCTRL, K),    U_MT(LALT, L),     U_MT(LGUI, SQT),   \
 U_LT(U_BUTTON, Z), U_LT(U_TR, X),     &kp C,             &kp V,             &kp B,             &kp N,             &kp M,             &kp COMMA,         U_LT(U_TR, DOT),   U_LT(U_BUTTON, SLASH),\
