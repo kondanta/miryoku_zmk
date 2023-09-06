@@ -5,8 +5,8 @@
 // However it is also useful for other games
 #define MIRYOKU_LAYER_TAP \
 U_MT(ESC, C),      &kp N1,            &kp N2,                       U_MT(N4, N3),      U_MT(J,T),             &kp Y,             &u_to_U_BASE,      &kp I,             &kp O,             &kp P,      \
-U_MT(TILDE,X),     &kp Q,             &kp W,                        &kp E,             U_MT(H,R),             &kp H,             &kp J,             &kp K,             &kp L,             &kp SQT,           \
-U_MT(TAB,Z),       &kp A,             &kp S,                        &kp D,             U_MT(B,F),             &kp N,             &kp M,             &kp COMMA,         &kp DOT,           &kp SLASH,         \
+U_MT(I,X),         &kp Q,             &kp W,                        &kp E,             U_MT(H,R),             &kp H,             &kp J,             &kp K,             &kp L,             &kp SQT,           \
+U_MT(TAB,Z),       &kp A,             &kp S,                        &kp D,             U_MT(B,F),             U_MT(TILDE, GRAVE),             &kp M,             &kp COMMA,         &kp DOT,           &kp SLASH,         \
 U_NP,              U_NP,              &kp LSHFT,                    &kp LCTRL,         &kp BSPC,              &kp TAB,           &kp SPACE,         &kp ESC,           U_NP,              U_NP
 
 
